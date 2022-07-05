@@ -44,6 +44,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
 }
 
 .logo:hover,
@@ -64,6 +70,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+  
 
 .site-nav .link.current {
   color: var(--accent-color);
@@ -390,4 +397,20 @@ body {
 
   font-size: 16px;
   line-height: 1.87;
+}
+
+
+
+/* Оформление геометрии */
+
+/* ШАПКА */
+.header {
+
+}
+
+
+/* Эффективные решения */
+
+.solutions-page {
+
 }

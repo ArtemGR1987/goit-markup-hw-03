@@ -20,6 +20,25 @@ body {
   letter-spacing: 0.03em;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
 /*цвет основного текста #212121/
 
 /*вторичный цвет текста #757575*/
@@ -44,12 +63,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
 }
 
 .logo:hover,
@@ -86,6 +99,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .contacts :hover,
@@ -100,6 +115,8 @@ body {
 .mail {
   color: var(--primary-text-color);
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .tel {
@@ -111,10 +128,14 @@ body {
 
 .solutions {
   background-color: var(--main-background-black-color);
+  margin-bottom: 94px;
 }
 
 .solutions-title {
   color: var(--main-white-color);
+
+  margin-top: 0;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -178,11 +199,20 @@ body {
 
 .our-advantages {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
+
+
+
 
 /* Чем мы занимаемся */
 .our-work {
   color: var(--title-text-color);
+
+
+  margin-top: 0;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -193,21 +223,24 @@ body {
 
 .our-works {
   list-style: none;
+  margin-bottom: 94px;
 }
 
 /* Наша команда */
 
 .team-foto {
   list-style: none;
+  margin-bottom: 0px;
 }
 
 .our-team {
   background-color: var(--team-background-color);
+  margin-top: 0px;
 }
 
 .team {
   color: var(--title-text-color);
-
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -215,8 +248,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+
+.team-card {
+  margin-bottom: 30px;
+}
+
+
 .team-specialist {
   color: var(--title-text-color);
+
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -231,6 +272,10 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+
 }
 
 .specialists {
@@ -240,6 +285,8 @@ body {
 /* Подвал */
 .footer {
   background-color: var(--main-background-black-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Нижний логотип */
@@ -272,10 +319,17 @@ body {
 
 .footer-link {
   list-style: none;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .footer-adress {
   font-style: normal;
+   
+      margin-bottom: 0px;
 }
 
 .footer-adress :hover,
@@ -320,6 +374,10 @@ body {
 
 /* Кнопки */
 
+.filter {
+  text-align: center;
+}
+
 .filter-name {
   position: absolute;
   white-space: nowrap;
@@ -348,6 +406,8 @@ body {
 
 .filter-list {
   list-style: none;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 
 .filter-btn:hover,
@@ -377,6 +437,7 @@ body {
 
 .projects {
   list-style: none;
+  margin-bottom: 94px;
 }
 
 .project-background {
@@ -401,16 +462,19 @@ body {
 
 
 
-/* Оформление геометрии */
+/* Оформление геометрии первой страницы */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
+
 
 /* ШАПКА */
+
 .header {
-
+  background-color: #ffffff;
 }
 
-
-/* Эффективные решения */
-
-.solutions-page {
-
-}

@@ -38,6 +38,14 @@ h6 {
   margin-bottom: 0px;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
 
 /*цвет основного текста #212121/
 
@@ -70,10 +78,36 @@ h6 {
   color: var(--accent-color);
 }
 
+.main-nav-link {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+
+
+/* Main-nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+
 /* Site-nav */
 .site-nav {
   list-style: none;
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-inline-start: 0px;
+}
+
+
+.site-nav .site-nav-item{
+  margin-right: 50px;
 }
 
 .site-nav .site-nav-item:last-child {
@@ -106,7 +140,22 @@ h6 {
   letter-spacing: 0.02em;
   margin-bottom: 0;
   margin-top: 0;
+
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-inline-start: 0px;
 }
+
+
+.contacts-item {
+ margin-right: 50px;
+}
+
+.contacts .contacts-item:last-child {
+  margin-right: 0px;
+}
+
 
 .contacts :hover,
 .contacts :focus {
@@ -115,6 +164,7 @@ h6 {
 
 .contacts {
   list-style: none;
+  display: flex;
 }
 
 .mail {
@@ -139,7 +189,7 @@ h6 {
 .solutions-title {
   color: var(--main-white-color);
 
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -163,6 +213,9 @@ h6 {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button:hover,
@@ -171,6 +224,20 @@ h6 {
 }
 
 /* Наши преимущества */
+
+.our-advantages {
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+.our-advantages-item {
+  margin-right: 30px;
+}
+
+.our-advantages .our-advantages-item:last-child {
+  margin-right: 0px;
+}
+
 
 .advantages {
   position: absolute;
@@ -188,6 +255,8 @@ h6 {
 .section-title {
   color: var(--title-text-color);
 
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -200,12 +269,17 @@ h6 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 270px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .our-advantages {
   list-style: none;
   margin-top: 0;
   margin-bottom: 94px;
+
 }
 
 
@@ -229,13 +303,27 @@ h6 {
 .our-works {
   list-style: none;
   margin-bottom: 94px;
+  padding-left: 0px;
+  
+  display: flex;
+
 }
+
+.our-works-item {
+  margin-right: 30px;
+}
+
+
 
 /* Наша команда */
 
 .team-foto {
   list-style: none;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
+  display: flex;
+  
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .our-team {
@@ -246,6 +334,7 @@ h6 {
 .team {
   color: var(--title-text-color);
   margin-bottom: 50px;
+  padding-top: 94px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -253,9 +342,13 @@ h6 {
   letter-spacing: 0.03em;
 }
 
+.team-item {
+  margin-right: 30px;
+}
+
 
 .team-card {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 
@@ -263,6 +356,8 @@ h6 {
   color: var(--title-text-color);
 
   margin-bottom: 10px;
+
+  padding-top: 30px;
 
   font-weight: 500;
   font-size: 16px;
@@ -280,6 +375,8 @@ h6 {
 
   margin-bottom: 0px;
   margin-top: 0px;
+
+  padding-bottom: 30px;
 
 }
 
@@ -302,6 +399,11 @@ h6 {
 .footer-logo :hover,
 .footer-logo :focus {
   color: var(--accent-color);
+}
+
+.footer-link-item {
+  padding-top: 60px;
+  
 }
 
 .footer-logo {
@@ -468,16 +570,6 @@ h6 {
 
 
 /* Оформление геометрии первой страницы */
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 2px solid tomato;
-}
-
 
 /* ШАПКА */
 

@@ -45,10 +45,6 @@ h6 {
   outline: 2px solid tomato;
 }
 
-.container-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 /*цвет основного текста #212121/
 
@@ -90,6 +86,11 @@ h6 {
 .main-nav {
   display: flex;
   align-items: center;
+}
+
+
+.container .main-nav {
+  border-bottom: 1px solid #ECECEC;;
 }
 
 /* Site-nav */
@@ -539,6 +540,7 @@ h6 {
 .projects-link {
   text-decoration: none;
   text-align: initial;
+  
 }
 
 .projects {
@@ -549,6 +551,11 @@ h6 {
   flex-wrap: wrap;
   padding-inline-start: 0px;
 }
+
+.project-text {
+  border: 1px solid #EEEEEE;
+}
+
 
 .project-background {
   background-color: var(--background-portfolio-color);

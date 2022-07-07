@@ -26,8 +26,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -46,7 +44,6 @@ h6 {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
-
 
 .container-flex {
   display: flex;
@@ -89,15 +86,11 @@ h6 {
   padding-bottom: 25px;
 }
 
-
-
 /* Main-nav */
 .main-nav {
   display: flex;
   align-items: center;
 }
-
-
 
 /* Site-nav */
 .site-nav {
@@ -111,8 +104,7 @@ h6 {
   padding-inline-start: 0px;
 }
 
-
-.site-nav .site-nav-item{
+.site-nav .site-nav-item {
   margin-right: 50px;
 }
 
@@ -128,7 +120,6 @@ h6 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-  
 
 .site-nav .link.current {
   color: var(--accent-color);
@@ -153,15 +144,13 @@ h6 {
   padding-inline-start: 0px;
 }
 
-
 .contacts-item {
- margin-right: 50px;
+  margin-right: 50px;
 }
 
 .contacts .contacts-item:last-child {
   margin-right: 0px;
 }
-
 
 .contacts :hover,
 .contacts :focus {
@@ -244,7 +233,6 @@ h6 {
   margin-right: 0px;
 }
 
-
 .advantages {
   position: absolute;
   white-space: nowrap;
@@ -285,16 +273,11 @@ h6 {
   list-style: none;
   margin-top: 0;
   margin-bottom: 94px;
-
 }
-
-
-
 
 /* Чем мы занимаемся */
 .our-work {
   color: var(--title-text-color);
-
 
   margin-top: 0;
   margin-bottom: 50px;
@@ -310,16 +293,13 @@ h6 {
   list-style: none;
   margin-bottom: 94px;
   padding-left: 0px;
-  
-  display: flex;
 
+  display: flex;
 }
 
 .our-works-item {
   margin-right: 30px;
 }
-
-
 
 /* Наша команда */
 
@@ -327,7 +307,7 @@ h6 {
   list-style: none;
   margin-bottom: 94px;
   display: flex;
-  
+
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -352,11 +332,9 @@ h6 {
   margin-right: 30px;
 }
 
-
 .team-card {
   margin-bottom: 0px;
 }
-
 
 .team-specialist {
   color: var(--title-text-color);
@@ -383,7 +361,6 @@ h6 {
   margin-top: 0px;
 
   padding-bottom: 30px;
-
 }
 
 .specialists {
@@ -409,7 +386,6 @@ h6 {
 
 .footer-link-item {
   padding-top: 60px;
-  
 }
 
 .footer-logo {
@@ -441,8 +417,8 @@ h6 {
 
 .footer-adress {
   font-style: normal;
-   
-      margin-bottom: 0px;
+
+  margin-bottom: 0px;
 }
 
 .footer-adress :hover,
@@ -508,7 +484,6 @@ h6 {
   color: var(--title-text-color);
   background-color: var(--team-background-color);
 
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -517,8 +492,6 @@ h6 {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-
-
 
 .filter-list {
   list-style: none;
@@ -563,7 +536,6 @@ h6 {
   margin-right: 0px;
 }
 
-
 .projects-link {
   text-decoration: none;
   text-align: initial;
@@ -607,14 +579,10 @@ h6 {
   line-height: 1.87;
 }
 
-
-
 /* Оформление геометрии первой страницы */
 
 /* ШАПКА */
 
 .header {
   background-color: #ffffff;
-
 }
-

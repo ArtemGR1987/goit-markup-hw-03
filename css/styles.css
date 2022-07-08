@@ -20,31 +20,43 @@ body {
   letter-spacing: 0.03em;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   outline: 2px solid tomato;
 }
 
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*цвет основного текста #212121/
 
@@ -132,16 +144,8 @@ h6 {
 }
 
 .contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  margin-bottom: 0;
-  margin-top: 0;
-
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
+ 
   padding-inline-start: 0px;
 }
 
@@ -165,27 +169,37 @@ h6 {
 
 .mail {
   color: var(--primary-text-color);
-  text-decoration: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+      padding-bottom: 32px;
+  
 }
 
 .tel {
   color: var(--primary-text-color);
-  text-decoration: none;
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* Эффективные решения для вашего бизнеса */
 
 .solutions {
   background-color: var(--main-background-black-color);
-  margin-bottom: 94px;
+ padding: 200px 0;
 }
 
 .solutions-title {
   color: var(--main-white-color);
+  width: 696px;
+  margin: 0 auto;
 
-  margin-top: 0px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -203,12 +217,14 @@ h6 {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  padding: 10px 32px;
 
   margin-left: auto;
   margin-right: auto;
@@ -223,7 +239,8 @@ h6 {
 
 .our-advantages {
   display: flex;
-  padding-inline-start: 0px;
+ 
+  padding-top: 0px;
 }
 
 .our-advantages-item {
@@ -270,11 +287,7 @@ h6 {
   margin-bottom: 0px;
 }
 
-.our-advantages {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 94px;
-}
+
 
 /* Чем мы занимаемся */
 .our-work {
@@ -290,9 +303,26 @@ h6 {
   letter-spacing: 0.03em;
 }
 
+
+.work {
+  padding-top: 0px;
+}
+
+
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.our-works :nth-child(3n) {
+  margin-right: 0px;
+}
+
 .our-works {
   list-style: none;
-  margin-bottom: 94px;
   padding-left: 0px;
 
   display: flex;
@@ -305,17 +335,19 @@ h6 {
 /* Наша команда */
 
 .team-foto {
-  list-style: none;
-  margin-bottom: 94px;
+  
   display: flex;
 
-  padding-left: 0px;
-  padding-right: 0px;
+  
+}
+
+.team-foto :nth-child(4n) {
+  margin-right: 0px;
 }
 
 .our-team {
   background-color: var(--team-background-color);
-  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .team {
@@ -340,15 +372,18 @@ h6 {
 .team-specialist {
   color: var(--title-text-color);
 
-  margin-bottom: 10px;
-
-  padding-top: 30px;
+  padding-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+
+.team-specialist-position {
+  padding: 30px 59px;
 }
 
 .team-position {
@@ -361,7 +396,7 @@ h6 {
   margin-bottom: 0px;
   margin-top: 0px;
 
-  padding-bottom: 30px;
+  
 }
 
 .specialists {
@@ -371,8 +406,7 @@ h6 {
 /* Подвал */
 .footer {
   background-color: var(--main-background-black-color);
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding: 60px 0;
 }
 
 /* Нижний логотип */
@@ -385,9 +419,7 @@ h6 {
   color: var(--accent-color);
 }
 
-.footer-link-item {
-  padding-top: 60px;
-}
+
 
 .footer-logo {
   color: var(--main-white-color);
@@ -418,7 +450,7 @@ h6 {
 
 .footer-adress {
   font-style: normal;
-
+  margin-top: 20px;
   margin-bottom: 0px;
 }
 
@@ -496,8 +528,8 @@ h6 {
 
 .filter-list {
   list-style: none;
-  margin-top: 94px;
-  margin-bottom: 34px;
+
+  padding-bottom: 34px;
 
   display: flex;
   justify-content: center;
@@ -545,7 +577,6 @@ h6 {
 
 .projects {
   list-style: none;
-  margin-bottom: 94px;
 
   display: flex;
   flex-wrap: wrap;
@@ -559,7 +590,13 @@ h6 {
 
 .project-background {
   background-color: var(--background-portfolio-color);
+
+  display: block;
+    max-width: 100%;
+    height: auto;
 }
+
+
 
 .project-name {
   color: var(--title-text-color);
@@ -590,6 +627,3 @@ h6 {
 
 /* ШАПКА */
 
-.header {
-  background-color: #ffffff;
-}

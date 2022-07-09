@@ -20,8 +20,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-
-
 h1,
 h2,
 h3,
@@ -40,12 +38,10 @@ p {
   outline: 2px solid tomato;
 }
 
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 .list {
   list-style: none;
@@ -100,9 +96,8 @@ p {
   align-items: center;
 }
 
-
 .container .main-nav {
-  border-bottom: 1px solid #ECECEC;;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Site-nav */
@@ -145,7 +140,7 @@ p {
 
 .contacts {
   margin-left: auto;
- 
+
   padding-inline-start: 0px;
 }
 
@@ -170,29 +165,28 @@ p {
 .mail {
   color: var(--primary-text-color);
   font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    padding-top: 32px;
-      padding-bottom: 32px;
-  
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .tel {
   color: var(--primary-text-color);
   font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Эффективные решения для вашего бизнеса */
 
 .solutions {
   background-color: var(--main-background-black-color);
- padding: 200px 0;
+  padding: 200px 0;
 }
 
 .solutions-title {
@@ -239,7 +233,7 @@ p {
 
 .our-advantages {
   display: flex;
- 
+
   padding-top: 0px;
 }
 
@@ -287,8 +281,6 @@ p {
   margin-bottom: 0px;
 }
 
-
-
 /* Чем мы занимаемся */
 .our-work {
   color: var(--title-text-color);
@@ -303,19 +295,15 @@ p {
   letter-spacing: 0.03em;
 }
 
-
 .work {
   padding-top: 0px;
 }
-
-
 
 .img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 
 .our-works :nth-child(3n) {
   margin-right: 0px;
@@ -335,10 +323,7 @@ p {
 /* Наша команда */
 
 .team-foto {
-  
   display: flex;
-
-  
 }
 
 .team-foto :nth-child(4n) {
@@ -381,7 +366,6 @@ p {
   letter-spacing: 0.03em;
 }
 
-
 .team-specialist-position {
   padding: 30px 59px;
 }
@@ -395,8 +379,6 @@ p {
 
   margin-bottom: 0px;
   margin-top: 0px;
-
-  
 }
 
 .specialists {
@@ -419,8 +401,6 @@ p {
   color: var(--accent-color);
 }
 
-
-
 .footer-logo {
   color: var(--main-white-color);
   font-family: Raleway;
@@ -441,10 +421,17 @@ p {
 
 .footer-link {
   list-style: none;
-  padding-bottom: 60px;
-  padding-top: 20px;
+
   padding-left: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.adress-link {
+  margin-bottom: 9px;
+}
+
+.adress-link:nth-child(3n) {
   margin-bottom: 0px;
 }
 
@@ -514,22 +501,22 @@ p {
 }
 
 .filter-btn {
-  color: var(--title-text-color);
-  background-color: var(--team-background-color);
-
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .filter-list {
   list-style: none;
 
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 
   display: flex;
   justify-content: center;
@@ -572,7 +559,6 @@ p {
 .projects-link {
   text-decoration: none;
   text-align: initial;
-  
 }
 
 .projects {
@@ -584,24 +570,21 @@ p {
 }
 
 .project-text {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
-
 
 .project-background {
   background-color: var(--background-portfolio-color);
 
   display: block;
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-
-
 
 .project-name {
   color: var(--title-text-color);
 
-  margin-top: 20px;
   margin-left: 24px;
   margin-right: 24px;
 
@@ -622,8 +605,3 @@ p {
   font-size: 16px;
   line-height: 1.87;
 }
-
-/* Оформление геометрии первой страницы */
-
-/* ШАПКА */
-
